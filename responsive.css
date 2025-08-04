@@ -1,0 +1,119 @@
+@media screen and (max-width:821px){
+    nav{
+        max-width:100vw;
+    }
+    
+    .first{
+        flex-wrap: wrap;
+    }
+    .sec img{
+        width:250px;
+    }
+    .gif img{
+         width:215px;
+         
+         
+    }
+
+    .hero> :nth-child(2){
+        
+        font-size:10px;
+        
+}
+
+.main  .box{
+    
+    width:100%;
+    
+}
+.hero-buttons{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:16px;
+    flex-direction: column;
+}
+}
+
+
+@media screen and  (max-width:821px){
+    .container-box{
+        display:grid;
+        grid-template-columns:23% 23% 23% 23%;
+        margin-left:10px;
+    }
+    .container-box span{
+          padding-left:420px;
+          padding-right:0px;
+          margin-top:150px;
+    }
+
+.read p{
+    text-align: left;
+    margin-left:30px;
+    padding-right:20px;
+
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+.flex-item{
+    width:30%;
+    margin-left:50px;
+}
+.big-two{
+    margin-left:-250px;
+}
+.extra{
+    margin-left:10px;
+}
+   
+.herobutton input{
+    padding: 17px 200px 18px 14px;
+    font-size: 15px;
+    margin-left:-10px;
+   
+}
+.question-footer p{
+    margin-left:-100px;
+}
+
+.faq{
+    margin-left:-100px;
+    margin-top:1000px;
+}
+.text-one h2{
+   padding-left:60px;
+}
+.answer{
+    width:62.5%;
+}
+.slider-container{
+    width:110%;
+    padding-left:90px;
+
+}
+.slider-btn.left {
+  left: 50px;
+  
+ 
+}
+.language-dropdown {
+    margin-right:-130px;
+}
+.main span img{
+    margin-left:10px;
+}
+.red-small{
+    margin-right:15px;
+}
+.text-one h6{
+ padding-left:50px;
+
+
+}
+
+}
+
