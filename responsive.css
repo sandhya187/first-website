@@ -36,7 +36,7 @@
 }
 
 
-@media screen and  (max-width:821px){
+@media screen and  (max-width:480px){
     .container-box{
         display:grid;
         grid-template-columns:23% 23% 23% 23%;
