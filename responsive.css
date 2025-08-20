@@ -1,4 +1,4 @@
-@media screen and (max-width:821px){
+@media (max-width: 376px){
     nav{
         max-width:100vw;
     }
@@ -20,11 +20,18 @@
         font-size:10px;
         
 }
-
+/*--------------------------UPER PART -----------------------------------------*/
 .main  .box{
     
     width:100%;
-    
+    height:600px;
+}
+.main{
+    height:600px;
+}
+
+.main nav span img{
+     width:90px;
 }
 .hero-buttons{
     display:flex;
@@ -34,23 +41,73 @@
     flex-direction: column;
 }
 
+.herobutton input,
+.hero-buttons input{
+    padding: 17px 100px 18px 14px;
+    font-size: 15px;
+    margin-left:-10px;
+    
+   
+}
 
+.language-dropdown select{
+    padding: 5px 10px;
+}
+
+/*------MIDDLE PART-------------------------*/
+.text-one h6{
+ padding-left:70px;
+}
+
+.image-slider img {
+    height:200px;
+    width:100px
+}
+
+.flex-container{
+    width:890px;
+    height:300px;
+}
+/*-----------------------Forth part-------------------------*/
+.faq{
+    margin-left:-100px;
+    margin-top:1100px;
+}
+.question{
+   
+    font-size: 14px;
+    padding:20px;
+    
+}
+.answer{
+    width:58.1%;
+    font-size:14px;
+    height:350px;
+    padding-top:10px;
+    padding-left:20px;
+    
+}
+/*----------------FOOter part-------------------*/
 
 .container-box{
-        display:grid;
-        grid-template-columns:23% 23% 23% 23%;
-        margin-left:10px;
+    display:grid;
+     grid-template-columns:23% 23% 23% 23%;
+    margin-left:10px;
     }
     .container-box span{
-          padding-left:420px;
-          padding-right:0px;
-          margin-top:150px;
+        padding-left:480px;
+        padding-right:0px;
+        margin-top:190px;
     }
-
+.container-box h4{
+   padding-left:240px;
+    margin-top:150px;
+}
 .read p{
     text-align: left;
     margin-left:30px;
     padding-right:20px;
+    font-size:13px;
 
 }
 .flex-container{
@@ -63,201 +120,28 @@
     margin-left:50px;
 }
 .big-two{
-    margin-left:-250px;
+    margin-left:0px;
 }
 .extra{
     margin-left:10px;
 }
    
-.herobutton input{
-    padding: 17px 200px 18px 14px;
-    font-size: 15px;
-    margin-left:-10px;
-   
-}
+
 .question-footer p{
     margin-left:-100px;
 }
 
-.faq{
-    margin-left:-100px;
-    margin-top:1000px;
-}
+
 .text-one h2{
    padding-left:60px;
 }
-.answer{
-    width:62.5%;
-}
+
 .slider-container{
     width:110%;
     padding-left:90px;
 
 }
-.slider-btn.left {/* =======================
-   Tablet + Mobile (max 821px)
-======================= */
-@media screen and (max-width:821px){
-    nav{
-        max-width:100vw;
-    }
-    
-    .first{
-        flex-wrap: wrap;
-    }
-    .sec img{
-        width:250px;
-    }
-    .gif img{
-         width:215px;
-    }
-
-    .hero> :nth-child(2){
-        font-size:10px;
-    }
-
-    .main .box{
-        width:100%;
-    }
-    .hero-buttons{
-        display:flex;
-        align-items: center;
-        justify-content: center;
-        gap:16px;
-        flex-direction: column;
-    }
-
-    .container-box{
-        display:grid;
-        grid-template-columns:23% 23% 23% 23%;
-        margin-left:10px;
-    }
-    .container-box span{
-        padding-left:420px;
-        padding-right:0px;
-        margin-top:150px;
-    }
-
-    .read p{
-        text-align: left;
-        margin-left:30px;
-        padding-right:20px;
-    }
-    .flex-container{
-        display: flex;
-        flex-direction: column;
-    }
-    .flex-item{
-        width:30%;
-        margin-left:50px;
-    }
-    .big-two{
-        margin-left:-250px;
-    }
-    .extra{
-        margin-left:10px;
-    }
-    .herobutton input{
-        padding: 17px 200px 18px 14px;
-        font-size: 15px;
-        margin-left:-10px;
-    }
-    .question-footer p{
-        margin-left:-100px;
-    }
-    .faq{
-        margin-left:-100px;
-        margin-top:1000px;
-    }
-    .text-one h2{
-       padding-left:60px;
-    }
-    .answer{
-        width:62.5%;
-    }
-    .slider-container{
-        width:110%;
-        padding-left:90px;
-    }
-    .slider-btn.left {
-        left: 50px;
-    }
-    .language-dropdown {
-        margin-right:-130px;
-    }
-    .main span img{
-        margin-left:10px;
-    }
-    .red-small{
-        margin-right:15px;
-    }
-    .text-one h6{
-        padding-left:50px;
-    }
-}
-
-/* =======================
-   Mobile only (max 400px)
-======================= */
-@media screen and (max-width:300px){
-    .hero h1 {
-        font-size: 24px;
-        text-align: center;
-    }
-
-    .hero> :nth-child(2){
-        font-size: 12px;
-        text-align: center;
-    }
-
-    .herobutton input{
-        padding: 14px;
-        font-size: 14px;
-        width: 90%;
-        margin: 0 auto;
-    }
-
-    .hero-buttons{
-        flex-direction: column;
-        gap: 12px;
-    }
-
-    .container-box{
-        grid-template-columns: 48% 48%;
-        gap: 4%;
-        margin-left: 0;
-    }
-    .container-box span{
-        padding-left: 0;
-        margin-top: 20px;
-        text-align: center;
-    }
-
-    .read p{
-        margin-left: 0;
-        padding: 0 10px;
-        text-align: center;
-    }
-
-    .faq{
-        margin-left: 0;
-        margin-top: 40px;
-    }
-    .question-footer p{
-        margin-left: 0;
-        text-align: center;
-    }
-
-    .language-dropdown {
-        margin-right: 0;
-    }
-
-    .slider-container{
-        width: 100%;
-        padding-left: 0;
-    }
-}
-
+.slider-btn.left {
   left: 50px;
   
  
@@ -271,10 +155,12 @@
 .red-small{
     margin-right:15px;
 }
-.text-one h6{
- padding-left:50px;
 
-
+.hero h1{
+    font-size:30px;
+}
+.sepration{
+    margin-top:-5px;
 }
 
 }
