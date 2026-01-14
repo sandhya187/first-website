@@ -7,7 +7,7 @@ body{
 }
 
 .main{
-    background-image:url("assets/images/zgeTuV.jpg");
+    background-image:url("assets/images/horror\ \(1\).jpg");
     background-position: center center;
     background-size:max(1200px, 100vw);
     background-repeat:no-repeat;
@@ -19,7 +19,7 @@ body{
     height:100vh;
     width:100%;
     opacity: 0.69;
-    background-color:black;
+    background-color:rgb(11, 11, 11);
     position:absolute;
     top:0;
 }
@@ -72,7 +72,8 @@ nav button{
 
 
 .red-small{
-    background-color:red;
+    
+    background-color:rgb(178, 11, 11);
     color:white;
     padding:6px;
     font-size: 16px;
@@ -82,7 +83,7 @@ nav button{
    transition: transform 0.3s, box-shadow 0.1s;
 }
 .red-big{
-    background-color:red;
+    background-color:rgb(178, 11, 11);
     color:white;
     padding: 3px 24px;
     font-size:20px;
